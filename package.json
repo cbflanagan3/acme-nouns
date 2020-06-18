@@ -1,0 +1,24 @@
+{
+  "name": "acme-nouns",
+  "version": "1.0.0",
+  "description": "Workshops 21",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node-dev --respawn server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbflanagan3/acme-nouns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbflanagan3/acme-nouns/issues"
+  },
+  "homepage": "https://github.com/cbflanagan3/acme-nouns#readme",
+  "dependencies": {
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.13"
+  }
+}
